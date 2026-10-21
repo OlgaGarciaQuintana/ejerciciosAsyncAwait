@@ -12,4 +12,4 @@ let half= (num)=>{
 
 half(4).then(result=>console.log(result))
 
-half(5).then(result=>console.log(result))
+half(5).then(result=>console.log(result)).catch(err=>console.log(err));
